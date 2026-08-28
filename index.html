@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="safe-lens-logo.png">
+    <title>Safe Lens - Your Digital Security Guard</title>
+
+    <!-- Google Fonts: Poppins for headings, Roboto for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Our stylesheet -->
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+
+    <header class="safe-lens-header">
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <img src="safe-lens-logo.png" width="48" height="48" alt="Safe Lens logo">
+                <span class="logo-text">Safe<span class="logo-accent">Lens</span></span>
+            </a>
+
+            <!-- Hamburger button: only visible on small screens, controlled by index.js -->
+            <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navigation" id="primaryNav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="How it Works.html">HOW IT WORKS</a></li>
+                    <li><a href="demo.html">DEMO</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <!-- This empty div gets filled with floating emoji by index.js -->
+            <div class="floaters" id="floaters" aria-hidden="true"></div>
+
+            <h1 class="hero-title">Safe Lens <br>Your Social Media Digital Security Guard!</h1>
+
+            <div class="intro">
+                <p>
+                    Social media has become a phenomenon that makes it less difficult to "love
+                    thy neighbour" or to "keep your enemies closer," because these individuals are now right in the
+                    palm of our hands.
+                </p>
+
+                <p>
+                    It is safe to say that the many social media platforms we are exposed to
+                    were created with good intention, but the use of them has become malicious especially when
+                    it comes to what we share online. This is where Safe Lens comes in.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Our JavaScript file, loaded at the end so the page content exists first -->
+    <script src="index.js"></script>
+</body>
+</html>
